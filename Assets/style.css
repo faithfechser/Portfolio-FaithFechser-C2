@@ -1,3 +1,13 @@
-.header {
-    background-color: blue;
-}
+
+header {
+    padding: 60px;
+    text-align: left;
+    background: #2b3d4e;
+    color: #fff;
+  }
+
+  nav {
+    text-align: right;
+  }
+  
+  
