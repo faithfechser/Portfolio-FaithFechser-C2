@@ -1,13 +1,25 @@
 
 header {
-    padding: 60px;
+    padding: 20px;
     text-align: left;
-    background: #2b3d4e;
+    background: #0b4479;
     color: #fff;
   }
 
-  nav {
+nav {
     text-align: right;
   }
   
+aside {
+    flex: 30%;
+    background-color: #19262c;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
   
