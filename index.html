@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Document</title>
 </head>
+<!--Body-->
 <body>
     <div class="Container"> 
-        <!--Header-->
+        <!--Header and Navigation links-->
          <header>
-            <h1>Faith Fechser</h1>
+            <h1>Faith Fechser<span class="portfolio"></span></h1>
             <nav>
-                <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact Me</a></li>
-                    <li><a href="https://www.google.com">Resume</a></li>
+                <ul> <!--About Me Link-->
+                    <li>
+                        <a href="#About-Me">About Me</a>
+                    </li>
+                    <li> <!--Work Link-->
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li> <!--Contact Me Link-->
+                        <a href="#Contact-Me">Contact Me</a>
+                    </li>
+                    <li> <!--Resume Link-->
+                        <a href="https://drive.google.com/file/d/1YWCdiOu7d8moQW25GBvUp7qMGDkGXa-d/view?usp=sharing">Resume</a>
+                    </li>
                 </ul>
             </nav>
          </header>
@@ -28,10 +37,10 @@
          </section>
         <main>
             <!--About Me-->
-            <section class="About-Me">
             <aside class="Line-Border">
-                <h2>ABOUT ME</h2>
+               <h2>ABOUT ME</h2>
             </aside>
+            <section class="About-Me">
             <p>Faith Fechser is an artist, video editor, and student in web development.</p>
             </section>
 
@@ -71,19 +80,29 @@
                     </div>
                 </article>
             </section>
-
-            <!--Contact Me-->
-            <aside>
-                <h2>CONTACT ME</h2></aside>
-            <section class="Contact-Me">
-                <div class="Line-Border">
-                    <ul>
-                        <li><a href="faithfechser@gmail.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/faith-fechser/">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </section>
         </main>
     </div> 
 </body>
+<!--Footer-->
+<footer>
+    <!--Contact Me-->
+    <aside>
+        <h2>CONTACT ME</h2>
+    </aside>
+    <section class="Contact-Me">
+        <nav class="Line-Border">
+            <ul>
+                <li><!--Email Link-->
+                    <a href="faithfechser@gmail.com">Email</a>
+                </li>
+                <li><!--Phone Number-->
+                    <a href="">Phone Number</a>
+                </li>
+                <li><!--LinkedIn Link-->
+                    <a href="https://www.linkedin.com/in/faith-fechser/">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</footer>
 </html>
