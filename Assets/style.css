@@ -25,7 +25,7 @@ main {
 }
 
 aside {
-    flex: 30%;
+    flex:15%;
     background-color: #19262c;
     color: #fff;
     padding: 20px;
