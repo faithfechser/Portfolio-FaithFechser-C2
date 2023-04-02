@@ -5,14 +5,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./Assets/style.css">
+        <link rel="stylesheet" href="./Assets/css/style.css">
         <title>Document</title>
     </head>
+    
     <!--Body-->
     <body>
-        <div class="Container"> 
-            <!--Header and Navigation links-->
-            <header>
+        <!--Header and Navigation links-->
+        <header>
                 <h1>Faith Fechser<span class="portfolio"></span></h1>
                 <nav>
                     <ul> <!--About Me Link-->
@@ -20,7 +20,7 @@
                             <a href="#About-Me">About Me</a>
                         </li>
                         <li> <!--Work Link-->
-                            <a href="#Work">Work</a>
+                            <a href="">Work</a>
                         </li>
                         <li> <!--Contact Me Link-->
                             <a href="#Contact-Me">Contact Me</a>
@@ -30,16 +30,16 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
-            <!--Header and Navigation Links End-->
+        </header>
+         <!--Header and Navigation Links End-->
 
             <!--Banner-->
-            <section>
-                <img src="Assets/Banner.jpg" alt="Blue Banner Image">
-                <!--<p>example text over image</p>-->
-            </section>
-            <!--Main-->
-            <!--About Me-->
+            <div class="banner">
+                <!--<img src="Assets/Banner.jpg" alt="Blue Banner Image">
+                <p>example text over image</p>-->
+            </div>
+
+            <!--About Me Section Main-->
             <main class ="About Me Section">
                 <aside class="Line-Border">
                 <h2>ABOUT ME</h2>
@@ -48,7 +48,9 @@
                     <p>Faith Fechser is an ambitious and goal-oriented worker with a great work ethic. She has also become a very quick and adaptable worker that does well in a fast-paced work environment. Creativity and artistic ability is a very strong virtue of Faith's that increasingly assists her work to be unique and fufilling. Additionally, Faith is heavily educated in several computer science related topics and continues her education in coding. To this day, Faith builds her experience in digital art, video editing, and web design through freelance and personal work.</p>
                 </section>
             </main>
-            <!--Work Section-->
+            <!--About Me Section Main End-->
+
+            <!--Work Section Main-->
             <main class="Work Section">
                 <aside class="Line-Border">
                     <h2>WORK</h2>
@@ -57,42 +59,29 @@
                     <article>
                     <!--Featured Project-->
                         <div class="Image-1">
-                            <img src="Assets/Featured-Image-Placeholder.jpg" alt="Featured Project Image">
+                            <img src="Assets/images/Featured-Image-Placeholder.jpg" alt="Featured Project Image">
                             <p><a href=https://github.com/faithfechser/Horiseon-C1>Horiseon Project</a></p>
                         </div>
                     </article>
-                    <!--Sub Project 1-->
-                    <article>
-                        <div class="Image-2">
-                            <img src="Assets/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 2">
-                            <p><a href=https://github.com/faithfechser/prework-study-guide>HTML Study Guide</a></p>
-                        </div>
-                    </article>
-                    <!--Sub Project 2-->
-                    <article>
-                        <div class="Image-3">
-                            <img src="Assets/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 3">
-                            <p><a href=><!--example text placeholder--></a></p>
-                        </div>
-                    </article>
-                    <!--Sub Project 3-->
-                    <article>
-                        <div class="Image-4">
-                            <img src="Assets/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 4">
-                            <p><a href=><!--example text placeholder--></a></p>
-                        </div>
-                    </article>
-                    <!--Sub Project 4-->
-                    <article>
-                        <div class="Image-5">
-                            <img src="Assets/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 5">
-                            <p><a href=><!--example text placeholder--></a></p>
-                        </div>
-                    </article>
+                    <!--Sub Project 1 & 2-->
+                    <div class="Work-2-3">
+                        <img src="Assets/images/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 2">
+                        <p><a href=https://github.com/faithfechser/prework-study-guide>HTML Study Guide</a></p>
+                        <!--Project Separation-->
+                        <img src="Assets/images/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 3">
+                        <p><a href=><!--example text placeholder--></a></p>
+                    </div>
+                    <!--Sub Project 3 & 4-->
+                    <div class="Work-4-5">
+                        <img src="Assets/images/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 4">
+                        <p><a href=><!--example text placeholder--></a></p>
+                        <!--Project Separation-->
+                        <img src="Assets/images/Sub-Project-Image-Placeholder.jpg" alt="Sub Project Image 5">
+                        <p><a href=><!--example text placeholder--></a></p>
+                    </div>
                 </section>
-                <!--Work Section End-->
             </main>
-            <!--Main End-->
+            <!--Work Section Main End-->
 
             <!--Footer-->
             <footer>
@@ -111,6 +100,9 @@
                             </li>
                             <li><!--LinkedIn Link-->
                                 <a href="https://www.linkedin.com/in/faith-fechser/">LinkedIn</a>
+                            </li>
+                            <li><!--GitHub Link-->
+                                <a href="https://github.com/faithfechser">GitHub</a>
                             </li>
                         </ul>
                     </nav>

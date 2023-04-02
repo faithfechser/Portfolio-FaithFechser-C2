@@ -1,0 +1,105 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #0b4479;
+  color: #fff;
+}
+
+header h1 {
+  margin: 25px;
+}
+
+nav {
+  display: flex;
+  color:#fff;
+  font-size: 22px;
+  margin: 25px;
+} 
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px
+}
+
+
+
+
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("Assets/Banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: flex;
+}
+
+
+aside {
+  flex:15%;
+  background-color: #19262c;
+  color: #fff;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+  
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+.work-2-3 {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.work-4-5 {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+}
+
+footer {
+  padding: 30px;
+  text-align: Left;
+  background: #19262c;
+  color: #fff;
+} 
+
+footer nav {
+  padding: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  }
+  
+footer nav ul li {
+  align-items: center;
+  display: inline-block;
+  margin-left: 25px
+ }
+
+footer nav ul li a{
+  text-decoration: none;
+  color: #19262c;
+  cursor: pointer;
+ }
+
