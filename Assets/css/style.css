@@ -66,16 +66,14 @@ section {
 }
 
 
-.work-2-3 {
-  display: inline-block;
-  width: 45%;
-  margin-right: 5%;
+.Work-2-3 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.work-4-5 {
-  display: inline-block;
-  width: 45%;
-  margin-right: 5%;
+.Work-4-5 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -86,11 +84,9 @@ footer {
 } 
 
 footer nav {
-  padding: 20px;
-  margin-right: 20px;
   font-size: 20px;
-  }
-  
+}
+
 footer nav ul li {
   align-items: center;
   display: inline-block;
